@@ -12,8 +12,6 @@ body
 }
 .principal {
     background: transparent;
-    margin-right: 50%;
-    margin-left: 40%;
     display: grid;
     margin-top: 10vh;
 
