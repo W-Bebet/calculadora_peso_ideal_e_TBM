@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso ideal</title>
+    <link rel="shortcut icon" href="img/imc_img_fav_icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="corpo">
+    <div class="principal">
+        <img src="img/imc_img.jpg" alt="homem e mulher fitness" id="imgmix">
+        <h1>Calcular Peso Ideal</h1>
+        <br>
+        <h3>Insira: nome, Sexo e altura <br> exemplo (1.75)</h3>
+        <br>
+        <p>Nome:
+            <input type="text" placeholder="Nome..." id="inNome">
+        </p>
+        <p>Sexo:
+            <input type="radio" name="sexo" id="rbMasculino">Masculino
+            <input type="radio" name="sexo" id="rbFeminino">Feminino
+        </p>
+        <p>Altura:
+            <input type="text" placeholder="Altura em CM..." id="inAltura">
+        </p>
+        <p>Peso:
+            <input type="text" placeholder="Peso em quilos..." id="inPeso">
+        </p>
+        <p>Idade:
+            <input type="text" placeholder="Idade" id="inIdade">
+        </p>
+        <p>
+            <input type="button" value="Calcular Peso ideal" id="btCalcular">
+            <input type="button" value="Limpar Campos" id="btLimparCampos">
+        </p>
+        <h3 id="outResposta"></h3> <br> <br>
+        <pre id="outMetabolismo"></pre>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img { float:left; height: 300px; width: 300px;}
+h1 {border-bottom-style: inset;}
+body 
+{  background: aliceblue;
+    width: 100vw;
+    height: 100vh;
+}
+.principal {
+    background: transparent;
+    margin-right: 50%;
+    margin-left: 40%;
+    display: grid;
+    margin-top: 10vh;
+
+}
+.principal img {
+    border-radius: 10%;
+    
+}
+.principal input {
+    margin:10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid,black,1px;
+    border-radius: 8%;
+    background-color: transparent;
+}
+textarea:focus, input:focus,select:focus {
+    box-shadow:0 0 0 0;
+    border: 0 none;
+    outline:0;
+}
