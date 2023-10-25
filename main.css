@@ -13,7 +13,7 @@ body
 .principal {
     background: transparent;
     margin-right: 50%;
-    margin-left: 40%;
+    margin-left: 50%;
     display: grid;
     margin-top: 10vh;
     grid-gap: 5px;  
