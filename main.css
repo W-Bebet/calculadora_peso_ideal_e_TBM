@@ -13,7 +13,7 @@ body
 .principal {
     width: 100vw;
     height: 100vh;
-    background: #6C7A89;
+    background: lightblue;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,4 +42,9 @@ textarea:focus, input:focus,select:focus {
     box-shadow:0 0 0 0;
     border: 0 none;
     outline:0;
+}
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:black;
 }
