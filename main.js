@@ -33,7 +33,7 @@ function calcularPeso() {
 
     //se altura estiver vazia ou não for um numero
     if(altura == "" || isNaN(altura)) {
-        img.setAttribute("src", "imc_img_balanca.jpg");
+        img.setAttribute('src', 'imc_img_balanca.jpg');
         outResposta.textContent = "Infome a altura!";
         outResposta.style.color = "red";
         var body = document.body;
@@ -56,7 +56,7 @@ function calcularPeso() {
     //se masculino == true
     if (masculino) {
         var peso = Number(22 * Math.pow(altura, 2)); //altura ao quadrado
-        img.setAttribute('src', 'imc_img_man.jpg');
+        img.setAttribute('src', "imc_img_man.jpg");
         outResposta.style.color = "black";
         var body = document.body;
         body.style.background = "hsl(177, 39%, 62%)";
