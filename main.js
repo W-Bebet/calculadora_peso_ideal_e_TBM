@@ -58,8 +58,6 @@ function calcularPeso() {
         var peso = Number(22 * Math.pow(altura, 2)); //altura ao quadrado
         img.setAttribute('src', "imc_img_man.jpg");
         outResposta.style.color = "black";
-        var body = document.body;
-        body.style.background = "hsl(177, 39%, 62%)";
         //basal de Harris-Benedict
         basal = 88.362 + (13.397*pesoAtual)+(4.799*altura*100)-(5.677*idade);
         //basal de mifflin-St Jeor
@@ -68,8 +66,6 @@ function calcularPeso() {
         var peso = Number(21 * Math.pow(altura, 2));
         img.setAttribute('src', 'imc_img_girl.jpg');
         outResposta.style.color = "black";
-        var body = document.body;
-        body.style.background = "hsl(298, 28%, 57%)";
         //basal de Harris-Benedict
         basal = 447.593+(9.247*pesoAtual)+(3.098*altura*100)-(4.330*idade);
         //basal de mifflin-St Jeor
